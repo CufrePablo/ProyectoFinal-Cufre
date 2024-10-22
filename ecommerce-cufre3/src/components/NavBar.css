@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Centra los botones verticalmente */
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0; /* Coloca la barra en la parte superior */
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Cambia el color de fondo según sea necesario */
+    padding: 5px; /* Ajusta el espaciado según sea necesario */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil si lo deseas */
+    z-index: 10; /* Z-index alto para mantenerlo encima */
+  }
+  
+  .nav > * {
+    margin: 0 10px; /* Espaciado entre los botones */
+  }
+
+  

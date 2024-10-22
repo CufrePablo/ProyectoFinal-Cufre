@@ -1,0 +1,15 @@
+.boton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f1ddb6;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #a19284;
+  }
+  

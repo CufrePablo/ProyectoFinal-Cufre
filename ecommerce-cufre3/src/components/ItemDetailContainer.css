@@ -1,0 +1,27 @@
+.producto-imagen-detalle {
+  width: 250px;; /* Evita que la imagen sea más ancha que el contenedor */
+  height: auto;    /* Mantiene la proporción de la imagen */
+  display: block;  /* Evita el margen horizontal por defecto en imágenes */
+  margin: 0 auto;  /* Centra la imagen dentro del contenedor */
+}
+
+.producto-descripcion{
+  font-size: 25px;
+  text-align: center;
+}
+
+.producto-titulo{
+  font-size: 35px;
+  text-align: center;
+}
+
+.titulo-card{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.producto-precio{
+  font-size: 20px;
+  text-align: center;
+}

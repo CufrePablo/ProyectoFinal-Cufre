@@ -1,0 +1,41 @@
+
+/* styles.css */
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px; /* Agrega margen superior */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #AF8F6F;
+  }
+  
+header{
+  background-color: white;
+}
+
+  img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    /* margin-bottom: 20px; */
+  }

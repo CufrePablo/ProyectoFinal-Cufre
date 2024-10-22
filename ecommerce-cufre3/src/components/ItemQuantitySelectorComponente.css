@@ -1,0 +1,41 @@
+/* Corregí el nombre de la clase aquí a btn-contenedor (asegúrate de que coincida con el JSX) */
+.btn-contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-top: 10px; /* Espacio superior opcional */
+  }
+  
+  /* Estilo general para los botones */
+  .botonCantidad {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+  }
+  
+  /* Estilo específico para el botón de sumar */
+  .btn-sumar {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+  }
+  
+  /* Estilo específico para el botón de restar */
+  .btn-restar {
+    background-color: #f44336; /* Rojo */
+    color: white;
+  }
+  
+
+  .h3Cantidad{
+    text-align: center;
+    font-size: 30px
+  }
+
+  .numeroCantidad{
+    text-align: center;
+    font-size: 20px
+  }

@@ -1,0 +1,11 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a varias filas */
+    gap: 16px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas en la sección */
+}
+
+.product-card {
+    flex: 1 1 200px; /* Permite que las tarjetas tengan un ancho mínimo y se expandan */
+    max-width: 300px; /* Ancho máximo para cada tarjeta */
+}

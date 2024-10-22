@@ -1,0 +1,51 @@
+.checkout {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 50px auto; /* Centrado horizontal */
+    padding: 20px; /* Espaciado interior */
+    background-color: #f8f9fa; /* Fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .h2Checkout {
+    text-align: center; /* Título centrado */
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  input {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interior */
+    margin: 10px 0; /* Margen superior e inferior */
+    border: 1px solid #ced4da; /* Bordes grises */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de texto */
+    transition: border-color 0.3s; /* Transición suave en el borde */
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Cambia el color del borde al enfocar */
+    outline: none; /* Elimina el contorno predeterminado */
+  }
+  
+  .buttonForm {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interior */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 18px; /* Tamaño de texto */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+  }
+  
+  .buttonForm:disabled {
+    background-color: #cfd3d4; /* Color de fondo cuando está deshabilitado */
+    cursor: not-allowed; /* Cambia el cursor cuando está deshabilitado */
+  }
+  
+  .buttonForm:hover:not(:disabled) {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+  }
+  

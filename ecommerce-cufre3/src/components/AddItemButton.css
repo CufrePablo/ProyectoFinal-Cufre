@@ -1,0 +1,22 @@
+/* src/AddToCartButton.css */
+
+.add-to-cart {
+    background-color: #37AFE1; /* Color de fondo verde */
+    color: rgb(10, 2, 2); /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    display: flex; /* Usa flex para alinear el ícono y el texto */
+    align-items: center; /* Alinea verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    gap: 8px; /* Espaciado entre el ícono y el texto */
+    transition: background-color 0.3s; /* Efecto de transición */
+    width: 200px; /* Ancho fijo (puedes ajustarlo) */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+.add-to-cart:hover {
+    background-color: #C4E1F6; /* Color más oscuro al pasar el mouse */
+}

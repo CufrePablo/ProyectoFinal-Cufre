@@ -1,0 +1,15 @@
+body{
+  background-color: #F2E5BF;
+
+}
+
+
+a {
+  color: black; /* Mantiene el color original del texto */
+  text-decoration: none; /* Elimina el subrayado si lo deseas */
+}
+
+/* Para links visitados */
+a:visited {
+  color: inherit; /* Mantiene el color original también para links visitados */
+}
